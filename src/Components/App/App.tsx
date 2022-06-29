@@ -8,7 +8,7 @@ import Field from '../Field/Field';
 
 function App() {
   const [userID, setUserID] = useState(0);
-  const [users, setUsers] = useState(['✅', '❌']);
+  const [users, setUsers] = useState(['X', 'O']);
   return (
     <RecoilRoot>
       <Field

@@ -25,7 +25,9 @@ export const SetDataOFCell = (
       return arr;
     }
   });
-  console.log(CheckWiner(res, { x: 0, y: 0 }));
-
+  const winer = CheckWiner(res, { x: 0, y: 0 });
+  if (winer) {
+    console.log(winer);
+  }
   setFieldData(res);
 };
